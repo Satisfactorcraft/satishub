@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>
+        Satisfactorcraft
+    </title>
+</head>
+<body>
+    <div id="cookie-popup-menu">
+        <h1>
+            Wir verwenden Cookies
+        </h1>
+        <img src="image/cookie.png" id="cookie-popup-image">
+        <button id="cookie-popup-button" onclick="acceptCookies()">
+            <strong>
+                Akzeptieren
+            </strong>
+        </button>
+        <p id="cookie-popup-info">
+            Diese Website verwendet Cookies, um eine optimale Nutzung zu ermöglichen.<br>
+            Einige Cookies sind für den Betrieb der Seite erforderlich,<br>
+            während andere helfen, Inhalte zu personalisieren und das Nutzererlebnis zu verbessern.<br>
+            Durch das bestätigen des Buttons stimmst du der Nutzung von Cookies zu.<br>
+            <em>
+                <a href="cookie.html" target="_blank" rel="noopener">
+                    Mehr erfahren
+                </a>
+            </em>
+        </p>
+    </div>
+    <div id="main-title-canvas">
+        <h1 id="main-title">
+            Willkommen bei Satisfactorcraft
+        </h1>
+        <h2 id="main-subtitle">
+            -Hier fangen alle projekte von Satisfactorcraft an-
+        </h2>
+    </div>
+    <div id="projects-information">
+        <div id="satiseditor">
+            <h3 id="satiseditor-title">
+                <a href="download.html?application=satishub">
+                    SatisHUB
+                </a>
+                <button onclick="removeCookies()">HH</button>
+            </h3>
+            <img src="image/code.png" id="satiseditor-image">
+        </div>
+    </div>
+    <script src="cookie-popup.js">
+    </script>
+    <script src="remove-all-cookies.js">
+    </script>
+</body>

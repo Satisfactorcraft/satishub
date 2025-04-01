@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-title {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+}
+#cookie-popup-menu {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    border: #888888 solid;
+    border-radius: 20px;
+}
+#cookie-popup-image {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#cookie-popup-button {
+    color: #007bed;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 15px;
+}
+#cookie-popup-button:hover {
+    background-color: #0056b3;
+    transition: 0.3s;
+}
+.reader-paper-look {
+    width: 80%;
+    max-width: 1000px;
+    height: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    line-height: 1.6;
+    border-radius: 5px;
+}
+#main-subtitle {
+    text-align: center;
+    margin: auto;
+}
+#project-information {
+}
+#satiseditor {
+    font-family: sans-serif;
+    padding: 5%;
+    border: 5px solid;
+    background-color: #cccc;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 200px;
+    width: 15%;
+    margin-left: 10%;
+}
+#satiseditor-title {
+    display: inline;
+    text-align: center;
+}
+#satiseditor-image {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
